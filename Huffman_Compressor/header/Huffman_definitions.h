@@ -8,7 +8,7 @@
 #define TABLE_SIZE_ASCII 256
 #define SIZE_BITS_OF_BYTE 8
 
-// No para a arvore de Huffman
+// Knot for Huffman Tree
 typedef struct TRIE
 {
     uint8_t symbol;// simbolo ou byte
@@ -17,14 +17,14 @@ typedef struct TRIE
     struct TRIE *pRight;
 } No_trie_t;
 
-// No para a lista de Nos da arvore de huffman
+// Knot for Huffman Tree User
 typedef struct NO_TRIE_LIST
 {
     No_trie_t *ptrie_member;
     struct NO_TRIE_LIST *pNext_trie;
 } No_trie_list_t;
 
-// Tipo que conta os elementos de um lista e ponteiros para o começo e fim da lista
+// Type that counts the elements of a list and pointers to the beginning and end of the list
 typedef struct PRIORITY_LIST
 {
     No_trie_list_t* pBegin_List;
@@ -32,7 +32,7 @@ typedef struct PRIORITY_LIST
     uint32_t Elements;
 }Priority_List_t;
 
-// Enumeração para códigos de erro
+// Enumeration for error codes
 typedef enum ERRC_CODE
 {
     HUFF_ERRC_SUCESS,
