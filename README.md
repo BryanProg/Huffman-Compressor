@@ -8,6 +8,7 @@ A compatient and decompatting software based on the Huffman algorithm
 
 # How to clone and compile
 - Clone this repo as: ```git clone --recurse-submodules "https://github.com/BryanProg/Huffman-Compressor.git"```
-- In terminal, type: ```cd Huffman_Compressor```
-                     ```cmake -S . -B build -GNinja -DCMAKE_BUILD_TYPE=Release```
-                     ```cmake --build build --config Release```
+- In terminal, type: 
+	- ```cd Huffman_Compressor```
+	- ```cmake -S . -B build -GNinja -DCMAKE_BUILD_TYPE=Release```
+	- ```cmake --build build --config Release```
