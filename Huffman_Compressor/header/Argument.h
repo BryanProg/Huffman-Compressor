@@ -6,6 +6,12 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+
+#if defined(__linux__)
+    #include <linux/limits.h>
+    #define _MAX_PATH (PATH_MAX)
+#endif
+
 // Quantity of Commands for Possible
 #define SIZECOMAND 5
 

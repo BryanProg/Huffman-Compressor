@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdbool.h>
-#include "..\header\Argument.h"
+#include "../header/Argument.h"
 
 bool ValidComand(const char* comand, const char** ComSuport)
 {

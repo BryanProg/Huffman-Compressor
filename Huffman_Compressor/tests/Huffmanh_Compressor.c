@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-#include "..\header\Huffman_definitions.h"
-#include "..\header\Argument.h"
+#include "../header/Argument.h"
+#include "../header/Huffman_definitions.h"
 
 const char* ComandSuport[] = 
 {

@@ -2,7 +2,7 @@
 #include "stdlib.h"
 #include "stdint.h"
 #include <stdbool.h>
-#include "..\header\Huffman_definitions.h"
+#include "../header/Huffman_definitions.h"
 
 No_trie_t* newNotrie(int8_t symbol, uint32_t freq, No_trie_t* left, No_trie_t* right)
 {
